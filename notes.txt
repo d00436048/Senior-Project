@@ -1,0 +1,23 @@
+------software-------
+finish music
+add arcade controls
+
+
+
+
+----optional-----
+**add joystick controls?/ pybag
+ fix spawn locations
+
+
+
+//combine tank upper and lower
+//lower framerate?
+
+
+wb1: select deselect fire p1
+wb2: select deselect fire p2
+--rb1: confirm character p1 and levels, accelerate
+--rb2: accelerate
+pot1: navigate each menu, rotate tank1
+pot2: rotate tank2

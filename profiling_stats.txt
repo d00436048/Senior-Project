@@ -1,0 +1,290 @@
+         247145 function calls in 13.410 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.031    0.031   13.410   13.410 /Users/bridgerhall/Documents/senior project/tanks/main.py:76(main)
+      381   10.591    0.028   10.591    0.028 {method 'tick' of 'pygame.time.Clock' objects}
+    21096    0.856    0.000    0.856    0.000 {method 'blit' of 'pygame.surface.Surface' objects}
+      381    0.554    0.001    0.554    0.001 {built-in method pygame.display.flip}
+       15    0.000    0.000    0.518    0.035 /Users/bridgerhall/Documents/senior project/tanks/scene_loader.py:34(scene_changer)
+       73    0.001    0.000    0.462    0.006 /Users/bridgerhall/Documents/senior project/tanks/scene_manager.py:1565(display_scene)
+       79    0.049    0.001    0.299    0.004 /Users/bridgerhall/Documents/senior project/tanks/scene_manager.py:1833(display_scene)
+       73    0.067    0.001    0.273    0.004 /Users/bridgerhall/Documents/senior project/tanks/maps.py:19(render_map)
+      381    0.245    0.001    0.245    0.001 {built-in method pygame.event.get}
+      302    0.244    0.001    0.244    0.001 {built-in method pygame.image.load}
+        3    0.008    0.003    0.234    0.078 /Users/bridgerhall/Documents/senior project/tanks/scene_manager.py:468(load_scene)
+        4    0.063    0.016    0.224    0.056 /Users/bridgerhall/Documents/senior project/tanks/scene_manager.py:1244(load_scene)
+       43    0.001    0.000    0.180    0.004 /Users/bridgerhall/Documents/senior project/tanks/scene_manager.py:336(display_scene)
+    17574    0.142    0.000    0.142    0.000 {built-in method pygame.transform.scale_by}
+      690    0.126    0.000    0.126    0.000 {method 'render' of 'pygame.font.Font' objects}
+        1    0.118    0.118    0.118    0.118 {built-in method pygame.base.quit}
+       52    0.000    0.000    0.114    0.002 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/util_pygame.py:152(load_pygame)
+       52    0.001    0.000    0.114    0.002 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:476(__init__)
+       52    0.001    0.000    0.104    0.002 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:580(parse_xml)
+       31    0.000    0.000    0.091    0.003 /Users/bridgerhall/Documents/senior project/tanks/scene_manager.py:578(display_scene)
+      406    0.076    0.000    0.076    0.000 {method 'fill' of 'pygame.surface.Surface' objects}
+      139    0.004    0.000    0.068    0.000 /Users/bridgerhall/Documents/senior project/tanks/scene_manager.py:74(display_scene)
+       16    0.000    0.000    0.064    0.004 /Users/bridgerhall/Documents/senior project/tanks/scene_manager.py:213(display_scene)
+      156    0.001    0.000    0.052    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:1360(__init__)
+      156    0.001    0.000    0.051    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:1410(parse_xml)
+      198    0.047    0.000    0.047    0.000 {method 'convert_alpha' of 'pygame.surface.Surface' objects}
+        3    0.001    0.000    0.041    0.014 /Users/bridgerhall/Documents/senior project/tanks/scene_manager.py:291(load_scene)
+      156    0.012    0.000    0.040    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:1434(<listcomp>)
+       43    0.001    0.000    0.033    0.001 /Users/bridgerhall/Documents/senior project/tanks/scene_manager.py:358(run_player_select_2)
+       73    0.004    0.000    0.030    0.000 /Users/bridgerhall/Documents/senior project/tanks/scene_manager.py:1597(run_gameplay_2)
+       79    0.001    0.000    0.029    0.000 /Users/bridgerhall/Documents/senior project/tanks/scene_manager.py:1906(run_results)
+    26676    0.009    0.000    0.028    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:1118(register_gid_check_flags)
+      148    0.001    0.000    0.022    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:1180(__init__)
+       52    0.002    0.000    0.022    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:636(reload_images)
+      148    0.002    0.000    0.022    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:1210(parse_xml)
+    13036    0.012    0.000    0.019    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:1086(register_gid)
+       73    0.001    0.000    0.019    0.000 /Users/bridgerhall/Documents/senior project/tanks/game_ui.py:40(render_ui)
+      200    0.001    0.000    0.018    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/xml/etree/ElementTree.py:1208(parse)
+      137    0.001    0.000    0.018    0.000 /Users/bridgerhall/Documents/senior project/tanks/players.py:333(update)
+      200    0.002    0.000    0.017    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/xml/etree/ElementTree.py:556(parse)
+    55556    0.017    0.000    0.017    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:1379(iter_data)
+    37449    0.017    0.000    0.017    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:758(get_tile_image_by_gid)
+       52    0.009    0.000    0.013    0.000 /Users/bridgerhall/Documents/senior project/tanks/maps.py:34(get_collision_rects)
+      148    0.000    0.000    0.013    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/util_pygame.py:115(pygame_image_loader)
+      200    0.009    0.000    0.009    0.000 {method '_parse_whole' of 'xml.etree.ElementTree.XMLParser' objects}
+        1    0.000    0.000    0.009    0.009 /Users/bridgerhall/Documents/senior project/tanks/scene_manager.py:202(load_scene)
+    13036    0.005    0.000    0.007    0.000 <string>:1(<lambda>)
+      156    0.000    0.000    0.007    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:154(unpack_gids)
+       31    0.000    0.000    0.007    0.000 /Users/bridgerhall/Documents/senior project/tanks/scene_manager.py:660(run_level_select)
+      394    0.004    0.000    0.007    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/queue.py:97(empty)
+      156    0.006    0.000    0.006    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:181(<listcomp>)
+      124    0.000    0.000    0.006    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/util_pygame.py:133(load_image)
+      124    0.000    0.000    0.005    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/util_pygame.py:61(smart_convert)
+      200    0.005    0.000    0.005    0.000 {built-in method io.open}
+        2    0.001    0.000    0.005    0.003 /Users/bridgerhall/Documents/senior project/tanks/scene_manager.py:57(load_scene)
+      148    0.000    0.000    0.005    0.000 <frozen posixpath>:397(abspath)
+        1    0.003    0.003    0.005    0.005 /Users/bridgerhall/Documents/senior project/tanks/players.py:9(__init__)
+      128    0.001    0.000    0.005    0.000 /Users/bridgerhall/Documents/senior project/tanks/players.py:297(move)
+      772    0.000    0.000    0.005    0.000 {method 'findall' of 'xml.etree.ElementTree.Element' objects}
+      356    0.001    0.000    0.004    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:419(_set_properties)
+      260    0.000    0.000    0.004    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/xml/etree/ElementPath.py:410(findall)
+      124    0.004    0.000    0.004    0.000 {built-in method pygame.mask.from_surface}
+        2    0.000    0.000    0.004    0.002 /Users/bridgerhall/Documents/senior project/tanks/scene_manager.py:1817(load_scene)
+      128    0.003    0.000    0.004    0.000 /Users/bridgerhall/Documents/senior project/tanks/players.py:310(check_collisions)
+      148    0.004    0.000    0.004    0.000 {built-in method posix.getcwd}
+        4    0.000    0.000    0.003    0.001 /Users/bridgerhall/Documents/senior project/tanks/game_ui.py:23(load_game_2_ui)
+      564    0.001    0.000    0.003    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/xml/etree/ElementPath.py:207(select)
+        1    0.000    0.000    0.003    0.003 <frozen importlib._bootstrap>:1165(_find_and_load)
+        1    0.000    0.000    0.003    0.003 <frozen importlib._bootstrap>:1120(_find_and_load_unlocked)
+      381    0.003    0.000    0.003    0.000 {built-in method pygame.mixer_music.set_volume}
+      137    0.001    0.000    0.002    0.000 /Users/bridgerhall/Documents/senior project/tanks/players.py:239(rotation)
+      356    0.002    0.000    0.002    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:390(_cast_and_set_attributes_from_node_items)
+      408    0.002    0.000    0.002    0.000 {method 'iter' of 'xml.etree.ElementTree.Element' objects}
+    13036    0.002    0.000    0.002    0.000 {built-in method __new__ of type object at 0x105833ca8}
+      407    0.001    0.000    0.002    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/queue.py:209(_qsize)
+      592    0.001    0.000    0.002    0.000 <frozen posixpath>:71(join)
+      274    0.002    0.000    0.002    0.000 {built-in method pygame.transform.rotate}
+      444    0.001    0.000    0.002    0.000 <frozen posixpath>:150(dirname)
+      137    0.001    0.000    0.002    0.000 /Users/bridgerhall/Documents/senior project/tanks/players.py:245(get_input)
+      156    0.000    0.000    0.002    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:1401(_set_properties)
+        1    0.000    0.000    0.002    0.002 <frozen importlib._bootstrap>:666(_load_unlocked)
+      151    0.002    0.000    0.002    0.000 {built-in method posix.stat}
+       16    0.000    0.000    0.001    0.000 /Users/bridgerhall/Documents/senior project/tanks/scene_manager.py:221(run_mode_select)
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:934(exec_module)
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:1007(get_code)
+       52    0.000    0.000    0.001    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:558(_set_properties)
+      381    0.001    0.000    0.001    0.000 {built-in method pygame.mixer.unpause}
+      137    0.001    0.000    0.001    0.000 {built-in method pygame.key.get_pressed}
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:1127(get_data)
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:1054(_find_spec)
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:1496(find_spec)
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:1464(_get_spec)
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:1604(find_spec)
+        1    0.001    0.001    0.001    0.001 {method 'read' of '_io.BufferedReader' objects}
+      381    0.001    0.000    0.001    0.000 {built-in method pygame.time.get_ticks}
+        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:140(_path_stat)
+     1016    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+     9026    0.001    0.000    0.001    0.000 {method 'colliderect' of 'pygame.rect.Rect' objects}
+      156    0.000    0.000    0.001    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:137(reshape_data)
+      148    0.000    0.000    0.001    0.000 <frozen genericpath>:16(exists)
+      260    0.001    0.000    0.001    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/xml/etree/ElementPath.py:360(iterfind)
+       80    0.001    0.000    0.001    0.000 {method 'convert' of 'pygame.surface.Surface' objects}
+     2232    0.001    0.000    0.001    0.000 {built-in method builtins.setattr}
+     1184    0.001    0.000    0.001    0.000 <frozen posixpath>:41(_get_sep)
+      156    0.001    0.000    0.001    0.000 {method 'split' of 'str' objects}
+       24    0.001    0.000    0.001    0.000 {built-in method builtins.print}
+      139    0.001    0.000    0.001    0.000 /Users/bridgerhall/Documents/senior project/tanks/scene_manager.py:93(run_main)
+        1    0.001    0.001    0.001    0.001 {built-in method pygame.mixer_music.load}
+      156    0.001    0.000    0.001    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:151(<listcomp>)
+     2474    0.001    0.000    0.001    0.000 {built-in method builtins.isinstance}
+      200    0.001    0.000    0.001    0.000 {method 'close' of '_io.BufferedReader' objects}
+       13    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/queue.py:154(get)
+       80    0.000    0.000    0.000    0.000 {built-in method pygame.transform.flip}
+      156    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:920(add_layer)
+      356    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:332(parse_properties)
+      410    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+     4583    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+       32    0.000    0.000    0.000    0.000 {built-in method pygame.transform.scale2x}
+      148    0.000    0.000    0.000    0.000 <frozen posixpath>:389(normpath)
+      148    0.000    0.000    0.000    0.000 <frozen posixpath>:60(isabs)
+       52    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:1037(objects)
+      156    0.000    0.000    0.000    0.000 {method 'set_alpha' of 'pygame.surface.Surface' objects}
+      124    0.000    0.000    0.000    0.000 {method 'subsurface' of 'pygame.surface.Surface' objects}
+     1252    0.000    0.000    0.000    0.000 {method 'get' of 'xml.etree.ElementTree.Element' objects}
+      741    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+      148    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:939(add_tileset)
+      292    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:1056(<genexpr>)
+     1483    0.000    0.000    0.000    0.000 {built-in method posix.fspath}
+      356    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:374(__init__)
+        7    0.000    0.000    0.000    0.000 /Users/bridgerhall/Documents/senior project/tanks/players.py:50(active)
+      323    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:1376(__iter__)
+      446    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method io.open_code}
+      356    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:395(_contains_invalid_property_name)
+       73    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:1047(visible_layers)
+        7    0.000    0.000    0.000    0.000 /Users/bridgerhall/Documents/senior project/tanks/players.py:85(check_collisions)
+      593    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+      356    0.000    0.000    0.000    0.000 {method 'items' of 'xml.etree.ElementTree.Element' objects}
+      153    0.000    0.000    0.000    0.000 {method 'get_rect' of 'pygame.surface.Surface' objects}
+      458    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+      520    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/xml/etree/ElementPath.py:179(select)
+      608    0.000    0.000    0.000    0.000 {method 'find' of 'xml.etree.ElementTree.Element' objects}
+      148    0.000    0.000    0.000    0.000 {built-in method posix._path_normpath}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:566(module_from_spec)
+      403    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+      148    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:1141(map_gid)
+        1    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/threading.py:945(start)
+      156    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:493(_init_module_attrs)
+       52    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:1035(<genexpr>)
+       13    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/threading.py:366(notify)
+       52    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:694(<genexpr>)
+        7    0.000    0.000    0.000    0.000 /Users/bridgerhall/Documents/senior project/tanks/players.py:193(render)
+      260    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/xml/etree/ElementPath.py:352(__init__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:727(_compile_bytecode)
+      200    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/xml/etree/ElementTree.py:536(__init__)
+       20    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/xml/etree/ElementPath.py:74(xpath_tokenizer)
+      408    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+       13    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/queue.py:217(_get)
+      124    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/util_pygame.py:39(handle_transformation)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:169(__enter__)
+        1    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/threading.py:611(wait)
+      137    0.000    0.000    0.000    0.000 {built-in method math.radians}
+        1    0.000    0.000    0.000    0.000 {built-in method marshal.loads}
+      359    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+       17    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.lock' objects}
+      137    0.000    0.000    0.000    0.000 /Users/bridgerhall/Documents/senior project/tanks/players.py:325(shoot)
+      136    0.000    0.000    0.000    0.000 {built-in method math.cos}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:392(cached)
+        1    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/threading.py:295(wait)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:233(_call_with_frames_removed)
+        1    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/threading.py:856(__init__)
+      200    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/xml/etree/ElementTree.py:542(getroot)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:567(_get_cached)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:437(cache_from_source)
+       52    0.000    0.000    0.000    0.000 /Users/bridgerhall/Documents/senior project/tanks/maps.py:6(__init__)
+      155    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.exec}
+      148    0.000    0.000    0.000    0.000 {method 'lower' of 'str' objects}
+       14    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/threading.py:286(_is_owned)
+       10    0.000    0.000    0.000    0.000 {method 'play' of 'pygame.mixer.Channel' objects}
+      124    0.000    0.000    0.000    0.000 {method 'get_size' of 'pygame.surface.Surface' objects}
+        1    0.000    0.000    0.000    0.000 /Users/bridgerhall/Documents/senior project/tanks/maps.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1599(_get_spec)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:179(_get_module_lock)
+       14    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/threading.py:271(__enter__)
+        1    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/_distutils_hack/__init__.py:89(find_spec)
+      124    0.000    0.000    0.000    0.000 {method 'count' of 'pygame.mask.Mask' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.__build_class__}
+        8    0.000    0.000    0.000    0.000 {built-in method pygame.transform.rotozoom}
+       52    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:1027(objectgroups)
+        5    0.000    0.000    0.000    0.000 {method 'findall' of 're.Pattern' objects}
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:126(_path_join)
+        1    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/queue.py:34(__init__)
+       14    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/threading.py:274(__exit__)
+      136    0.000    0.000    0.000    0.000 {built-in method math.sin}
+      104    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:944(get_layer_by_name)
+        5    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/xml/etree/ElementPath.py:183(prepare_descendant)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:159(_path_isfile)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:642(_classify_pyc)
+      135    0.000    0.000    0.000    0.000 {method 'copy' of 'pygame.rect.Rect' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:778(spec_from_file_location)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:150(_path_is_mode_type)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:84(_unpack_uint32)
+        2    0.000    0.000    0.000    0.000 /Users/bridgerhall/Documents/senior project/tanks/scene_manager.py:447(get_p1_select)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:132(_path_split)
+       52    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:621(<listcomp>)
+        4    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/threading.py:243(__init__)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:128(<listcomp>)
+        1    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:173(__exit__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:100(acquire)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1146(path_stats)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:71(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/_weakrefset.py:85(add)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:920(find_spec)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:125(release)
+       13    0.000    0.000    0.000    0.000 {method 'popleft' of 'collections.deque' objects}
+        5    0.000    0.000    0.000    0.000 {method 'play' of 'pygame.mixer.Sound' objects}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:180(_path_isabs)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:67(_relax_case)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1421(_path_importer_cache)
+       14    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:748(find_spec)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:134(<genexpr>)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:675(_validate_timestamp_pyc)
+        1    0.000    0.000    0.000    0.000 {built-in method pygame.mixer.init}
+        5    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/xml/etree/ElementPath.py:108(_is_wildcard_tag)
+        1    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:244(_verbose_message)
+        1    0.000    0.000    0.000    0.000 {built-in method pygame.mixer_music.stop}
+        8    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/threading.py:562(__init__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:357(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/bridgerhall/Documents/senior project/tanks/scene_manager.py:453(set_p1_select)
+        1    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/threading.py:811(_newname)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1097(__init__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:599(_check_name_wrapper)
+        5    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+        5    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/xml/etree/ElementPath.py:178(prepare_self)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1030(__exit__)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1026(__enter__)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.locals}
+        5    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:48(_new_module)
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.find_frozen}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:198(cb)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:165(__init__)
+        6    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+        1    0.000    0.000    0.000    0.000 {built-in method pygame.mixer_music.play}
+        1    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/threading.py:1324(_make_invoke_excepthook)
+        3    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+        1    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/threading.py:1221(daemon)
+        1    0.000    0.000    0.000    0.000 /Users/bridgerhall/Documents/senior project/tanks/scene_manager.py:456(set_p2_select)
+        1    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/threading.py:1453(current_thread)
+        1    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/queue.py:206(_init)
+        2    0.000    0.000    0.000    0.000 /Users/bridgerhall/Documents/senior project/tanks/scene_manager.py:450(get_p2_select)
+        6    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:405(parent)
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+        5    0.000    0.000    0.000    0.000 {method 'set_volume' of 'pygame.mixer.Sound' objects}
+        3    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        1    0.000    0.000    0.000    0.000 /Users/bridgerhall/Documents/senior project/tanks/maps.py:5(map)
+        1    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+        1    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/pytmx/pytmx.py:258(<lambda>)
+        1    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/threading.py:280(_release_save)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/threading.py:283(_acquire_restore)
+        1    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/threading.py:1206(daemon)
+        1    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:931(create_module)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:413(has_location)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1122(get_filename)
+        1    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/site-packages/_distutils_hack/__init__.py:96(<lambda>)
+        1    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.RLock' objects}
+        2    0.000    0.000    0.000    0.000 /Users/bridgerhall/.pyenv/versions/3.11.7/lib/python3.11/threading.py:575(is_set)
+        1    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+

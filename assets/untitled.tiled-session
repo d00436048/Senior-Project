@@ -1,0 +1,150 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "levels/map9.tmx",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "floor.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "images/game/background/wall2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "levels/map1.tmx": {
+            "scale": 0.4359375,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 607.8853046594982,
+                "y": 289.0322580645162
+            }
+        },
+        "levels/map11.tmx": {
+            "scale": 0.4359375,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 605.5913978494625,
+                "y": 289.0322580645162
+            }
+        },
+        "levels/map12.tmx": {
+            "scale": 0.43,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 606.9767441860465,
+                "y": 288.37209302325584
+            }
+        },
+        "levels/map13.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 608,
+                "y": 288
+            }
+        },
+        "levels/map4.tmx": {
+            "scale": 0.5812499999999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 607.3118279569893,
+                "y": 287.3118279569893
+            }
+        },
+        "levels/map5.tmx": {
+            "scale": 0.4359375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 607.8853046594982,
+                "y": 289.0322580645162
+            }
+        },
+        "levels/map6.tmx": {
+            "scale": 0.4359375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 607.8853046594982,
+                "y": 289.0322580645162
+            }
+        },
+        "levels/map7.tmx": {
+            "scale": 0.43,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 606.9767441860465,
+                "y": 288.37209302325584
+            }
+        },
+        "levels/map8.tmx": {
+            "scale": 0.4359375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 607.8853046594982,
+                "y": 289.0322580645162
+            }
+        },
+        "levels/map9.tmx": {
+            "scale": 0.4359375,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 607.8853046594982,
+                "y": 289.0322580645162
+            }
+        },
+        "wall.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "wall128.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "/Users/bridgerhall/Documents/senior project/tanks/assets/images/game/background",
+    "map.height": 9,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 64,
+    "map.tileWidth": 64,
+    "map.width": 19,
+    "openFiles": [
+        "floor.tsx",
+        "wall.tsx",
+        "wall128.tsx",
+        "levels/map1.tmx",
+        "levels/map12.tmx",
+        "images/game/background/wall2.tsx",
+        "levels/map13.tmx",
+        "levels/map5.tmx",
+        "levels/map7.tmx",
+        "levels/map8.tmx",
+        "levels/map9.tmx",
+        "levels/map11.tmx",
+        "levels/map6.tmx",
+        "levels/map4.tmx"
+    ],
+    "project": "untitled.tiled-project",
+    "recentFiles": [
+        "floor.tsx",
+        "wall.tsx",
+        "wall128.tsx",
+        "levels/map1.tmx",
+        "levels/map12.tmx",
+        "images/game/background/wall2.tsx",
+        "levels/map13.tmx",
+        "levels/map5.tmx",
+        "levels/map7.tmx",
+        "levels/map8.tmx",
+        "levels/map4.tmx",
+        "levels/map6.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 64,
+        "width": 64
+    }
+}

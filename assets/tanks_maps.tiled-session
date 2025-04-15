@@ -1,0 +1,124 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "background tiles.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "floor.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "level_1.tmj": {
+            "scale": 0.8,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 623.125,
+                "y": 277.5
+            }
+        },
+        "level_2.tmj": {
+            "scale": 0.8034179687499999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 670.2613346298773,
+                "y": 336.0641789230583
+            }
+        },
+        "level_3.tmj": {
+            "scale": 0.8034179687499999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 225.90980916494476,
+                "y": 148.11717515497756
+            }
+        },
+        "level_4.tmj": {
+            "scale": 0.8034179687499999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1038.687249301082,
+                "y": 481.69198978971684
+            }
+        },
+        "level_5.tmj": {
+            "scale": 0.8034179687499999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 613.0059559985415,
+                "y": 491.64944694299265
+            }
+        },
+        "level_6.tmj": {
+            "scale": 0.8,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.875,
+                "y": 288.75
+            }
+        },
+        "levels/level1.tmx": {
+            "scale": 1.18,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 512.2881355932204,
+                "y": 288.135593220339
+            }
+        },
+        "levels/level2.tmx": {
+            "scale": 0.99,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 607.5757575757576,
+                "y": 287.8787878787879
+            }
+        },
+        "old levels/steel_wall.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "steel_floor.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "wall 64x64.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "/Users/bridgerhall/Documents/senior project/tanks/assets/images/game/background",
+    "map.height": 9,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 64,
+    "map.tileWidth": 64,
+    "map.width": 19,
+    "openFiles": [
+    ],
+    "project": "tanks_maps.tiled-project",
+    "recentFiles": [
+        "old levels/steel_wall.tsx",
+        "levels/level1.tmx",
+        "levels/level2.tmx",
+        "background tiles.tsx",
+        "level_1.tmj",
+        "wall 64x64.tsx",
+        "floor.tsx",
+        "level_2.tmj",
+        "steel_floor.tsx",
+        "level_6.tmj",
+        "level_5.tmj",
+        "level_4.tmj"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 64,
+        "width": 64
+    }
+}
