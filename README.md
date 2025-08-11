@@ -11,9 +11,12 @@ The game is a duel style two player tanks game where each player is trying to sh
 - Esp32: custom controls and serial communication
 - Raspberry Pi 5: Running Display, Pygame, and receiving serial communication.
 - Python: Custom tanks two player arcade made with Pygame
-- Pixilart: Sprites and ui
+- Pixilart: Sprites and ui!
+
 - Adobe Illustrator: drawing Cabinet artwork
 - Rolland Large Format Vinyl Printer: Making Custom Cabinet artwork vinyl sheets
+
+[IMG_3329](https://github.com/user-attachments/assets/6aed2501-e0e6-4d9d-ba74-1442e4cc0fe3)
 
 <img width="1019" alt="image" src="https://github.com/user-attachments/assets/276b1652-e4c6-42c6-8394-0dc68b73b635" />
 
