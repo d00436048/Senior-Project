@@ -16,13 +16,10 @@ The game is a duel style two player tanks game where each player is trying to sh
 - Adobe Illustrator: drawing Cabinet artwork
 - Rolland Large Format Vinyl Printer: Making Custom Cabinet artwork vinyl sheets
 
-<img width="1019" alt="image" src="https://github.com/user-attachments/assets/276b1652-e4c6-42c6-8394-0dc68b73b635](https://github.com/user-attachments/assets/6aed2501-e0e6-4d9d-ba74-1442e4cc0fe3" />
+<img width="1019" alt="image" src="https://github.com/user-attachments/assets/b3150c63-8b98-4bc7-8b63-802dc6f08405" />
 
 <img width="1019" alt="image" src="https://github.com/user-attachments/assets/276b1652-e4c6-42c6-8394-0dc68b73b635" />
 
 <img width="1020" alt="image" src="https://github.com/user-attachments/assets/b09d4ed2-1c2d-4631-ad2f-24e6f6a012fb" />
 
 - <img width="1021" alt="image" src="https://github.com/user-attachments/assets/95d57b93-e178-438f-ada9-a315fc6cc022" />
-
-
-![image](https://github.com/user-attachments/assets/5532bb61-db9d-460a-bc88-69de629fa7f0)
